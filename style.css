@@ -53,7 +53,7 @@ nav button {
 }
 .btn_login{
 	height: 30px;
-	width: 100px;
+	width: 130px;
 	background-color: #1f144a;
 	color: white;
 	border-color: #01baf1;
@@ -65,13 +65,28 @@ nav button {
 	background: -webkit-linear-gradient(-225deg, #F6C85E 0%, #FF8779 48%, #F54E7E 100%);
 	background-image: linear-gradient(-225deg, #F6C85E 0%, #FF8779 48%, #F54E7E 100%);
 }
+.btn_swap{
+	height: 30px;
+	width: 100px;
+	background-color: #1f144a;
+	color: white;
+	border-color: #01baf1;
+	border: 1px solid #01baf1;
+	border-radius: 2px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+.btn_swap:hover{
+	background: -webkit-linear-gradient(-225deg, #F6C85E 0%, #FF8779 48%, #F54E7E 100%);
+	background-image: linear-gradient(-225deg, #F6C85E 0%, #FF8779 48%, #F54E7E 100%);
+}
 .bg_star{
 	background-image: url('img/5dcb6e956fe59ebbc7f4.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .cooming_soon{
-	background-image: url('img/JSB\ CHANNEL-03.png');
+	background-image: url('img/photo_2021-01-21_12-17-45.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 }
