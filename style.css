@@ -60,6 +60,7 @@ nav button {
 	width: 200px;
 	height: 50px;
 	margin-top: 20px;
+
 }
 .btn_slide:hover{
 	background: -webkit-linear-gradient(-225deg, #2c83fa 0%, #134087 48%, #2c83fa 100%);
