@@ -51,37 +51,50 @@ nav button {
 	margin-left: 15%;
 	height: 30px;
 }
+.btn_slide{
+	background-color: #2c83fa;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 3px solid #134087;
+	border-radius: 10px;
+	width: 200px;
+	height: 50px;
+	margin-top: 20px;
+}
+.btn_slide:hover{
+	background: -webkit-linear-gradient(-225deg, #2c83fa 0%, #134087 48%, #2c83fa 100%);
+}
 .btn_login{
 	height: 30px;
 	width: 130px;
-	background-color: #1f144a;
+	background-color: #2c83fa;
 	color: white;
 	border-color: #01baf1;
-	border: 1px solid #01baf1;
+	border: 1px solid #134087;
 	border-radius: 2px;
 	margin-top: 5px;
 }
 .btn_login:hover{
-	background: -webkit-linear-gradient(-225deg, #F6C85E 0%, #FF8779 48%, #F54E7E 100%);
-	background-image: linear-gradient(-225deg, #F6C85E 0%, #FF8779 48%, #F54E7E 100%);
+	background: -webkit-linear-gradient(-225deg, #2c83fa 0%, #134087 48%, #2c83fa 100%);
+	background-image: linear-gradient(-225deg, #2c83fa 0%, #134087 48%, #2c83fa 100%);
 }
 .btn_swap{
 	height: 30px;
 	width: 100px;
-	background-color: #1f144a;
+	background-color: #2c83fa;
 	color: white;
 	border-color: #01baf1;
-	border: 1px solid #01baf1;
+	border: 1px solid #134087;
 	border-radius: 2px;
 	margin-top: 5px;
 	margin-left: 5px;
 }
 .btn_swap:hover{
-	background: -webkit-linear-gradient(-225deg, #F6C85E 0%, #FF8779 48%, #F54E7E 100%);
-	background-image: linear-gradient(-225deg, #F6C85E 0%, #FF8779 48%, #F54E7E 100%);
+	background: -webkit-linear-gradient(-225deg, #2c83fa 0%, #134087 48%, #2c83fa 100%);
+	background-image: linear-gradient(-225deg, #2c83fa 0%, #134087 48%, #2c83fa 100%);
 }
 .bg_star{
-	background-image: url('img/5dcb6e956fe59ebbc7f4.jpg');
+	background-image: url('img/SWB\ UPDATE1-14.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -91,9 +104,18 @@ nav button {
 	background-repeat: no-repeat;
 }
 .tit_swapbots{
-	padding: 200px 0 200px 0;
+	padding: 70px 0 70px 0;
 }
-
+.img-swap{
+	background-image: url('img/SWB\ UPDATE-05.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.img-stake{
+	background-image: url('img/SWB\ UPDATE-06.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 .sub_tit{
 	text-align: justify;
 	font-family: 'Tajawal', sans-serif;
