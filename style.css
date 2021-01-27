@@ -264,6 +264,9 @@ nav button {
 		
 	}
 }
+.submit{
+	background:red;
+}
 @media (max-width: 988px) {
     .cooming_soon{
 		width: 100%; 
@@ -500,4 +503,43 @@ nav button {
   .slider > a {
     display: none;
   }
+}
+
+
+  #ac-wrapper {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,.6);
+    z-index: 1001;
+}
+
+#popup {
+    width: 555px;
+    height: 375px;
+	background-color: #eee;
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    position: fixed;
+    top: 20%; left: 30%;
+}
+.popup_submit{
+	background-color: #3490ad;
+	width: 100px;
+	font-weight: bold;
+	
+}
+@media only screen and (max-device-width:480px) {
+	#popup {
+		display:none;
+
+	}
+	#ac-wrapper {
+		display: none;
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		background: rgba(255,255,255,.6);
+		z-index: 1001;
 }
