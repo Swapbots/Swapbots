@@ -111,11 +111,13 @@ nav button {
 	background-image: url('img/SWB\ UPDATE-05.png');
 	background-size: cover;
 	background-repeat: no-repeat;
+	margin-top: 20px;
 }
 .img-stake{
 	background-image: url('img/SWB\ UPDATE-06.png');
 	background-size: cover;
 	background-repeat: no-repeat;
+	margin-top: 20px;
 }
 .sub_tit{
 	text-align: justify;
@@ -145,6 +147,11 @@ nav button {
 	margin-top: 10px;
 	padding-bottom: 10px;
 	padding-top: 10px;
+}
+.menu-footer{
+	color:white;
+	font-size: 18px !important;
+
 }
 .line{
 	border-top: solid 1px;
