@@ -131,15 +131,51 @@
 						<center>
 							<div class="img-stake" style="padding-bottom: 10px;">
 								<img class="img-fluid" id="img_cs" src="img/SWB UPDATE-04.png" alt="">
-								<a href="commingsoon.html"><button class="btn_slide"><i class="fa fa-hand-pointer-o" aria-hidden="true"></i>
-									Stake latform</button></a>
+								<button class="btn_slide" id="myBtn"><i class="fa fa-hand-pointer-o" aria-hidden="true"></i>
+									Stake latform</button>
+									<!-- The Modal -->
+									<div id="myModal" class="modal">
+										<!-- Modal content -->
+										<div class="modal-content">
+											<span class="close">&times;</span>
+											<center><img class="img-fluid" src="img/Untitled-1 [Recovered]-02.png" width="400px" height="310px"></center>
+										</div>
+									</div>
 							</div>
 							
 						</center>
 					</div>
+					<!--js popup 1-->
+				<script>
+					// Get the modal
+					var modal = document.getElementById("myModal");
 					
+					// Get the button that opens the modal
+					var btn = document.getElementById("myBtn");
+					
+					// Get the <span> element that closes the modal
+					var span = document.getElementsByClassName("close")[0];
+					
+					// When the user clicks the button, open the modal 
+					btn.onclick = function() {
+					modal.style.display = "block";
+					}
+					
+					// When the user clicks on <span> (x), close the modal
+					span.onclick = function() {
+					modal.style.display = "none";
+					}
+					
+					// When the user clicks anywhere outside of the modal, close it
+					window.onclick = function(event) {
+					if (event.target == modal) {
+						modal.style.display = "none";
+					}
+					}
+				</script>
+				<!-- end js popup-->	
 				</div>
-
+				
 			</div>
 			<div class="container">
 				<center>
@@ -217,12 +253,12 @@
 					<!-- /.col-lg-4 -->
 					<div class="col-lg-3 pl-lg-5 pl-sm-1" >
 						<div class="menu-footer">
-							<h3>Explore</h3>
+							<h3 class="footer-widget__title">Explore</h3>
 							<div class="menu-footer">
-								<ul class="list-unstyled" style="font-size: 30px;">
+								<ul class="list-unstyled">
 									<li><a class="text-white" href="about.html">About us</a></li>
 									<li><a class="text-white" href="https://github.com/SwapBots2">Github</a></li>
-									<li><a class="text-white" href="#">Block Explorer</a></li>
+									<li><a class="text-white" href="https://tronscan.org/#/token20/TZ7YqQkPFoyp1dzzMHBEXKpJawQUx8S47T">Block Explorer</a></li>
 								</ul>
 								<!-- /.list-unstyled -->
 							  
@@ -234,23 +270,23 @@
 					  
 					</div>
 					<!-- /.col-lg-4 -->
-					<div class="col-lg-6 p-0 text-white" style="font-size : 16px;">
+					<div class="col-lg-6 p-0 text-white">
 						<h3 class="footer-widget__title">Social</h3>
 						<div class="row">
-							<div class="col-6 text-white">
-								<ul class="list-unstyled">
-									<li class="pb-2"><a class="text-white" href="https://twitter.com/SWAPBOTS1" target="_blank"><img src="img/twitter.png" style="width: 44px; height: 44px;" alt=" "> Twitter</a></li>
-									<li class="pb-2"><a class="text-white" href="https://www.facebook.com/swapbots2/" target="_blank"> <img src="img/facebook.png" style="width: 44px; height: 44px;" alt=" "> Facebook</a></li>
-									<li class="pb-2"><a class="text-white" href="https://www.instagram.com/swapbots2/ " target="_blank"><img src="img/instagram.png" style="width: 44px; height: 44px;" alt=" "> Instagram</a></li>
-									<li class="pb-2"><a class="text-white" href="https://medium.com/@swapbots2" target="_blank"><img src="img/icon-foodted-28-2.png" style="width: 44px; height: 44px;" alt=" "> Medium</a></li>
-								</ul>
-							</div>
 							<div class="col-6">
 								<ul class="list-unstyled">
+								<li class="pb-2"><a class="text-white" href="https://twitter.com/SWAPBOTS1" target="_blank"><img src="img/twitter.png" style="width: 44px; height: 44px;" alt=" "> Twitter</a></li>
+								<li class="pb-2"><a class="text-white" href="https://www.facebook.com/swapbots2/" target="_blank"> <img src="img/facebook.png" style="width: 44px; height: 44px;" alt=" "> Facebook</a></li>
+								<li class="pb-2"><a class="text-white" href="https://www.instagram.com/swapbots2/ " target="_blank"><img src="img/instagram.png" style="width: 44px; height: 44px;" alt=" "> Instagram</a></li>
+								<li class="pb-2"><a class="text-white" href="https://medium.com/@swapbots2" target="_blank"><img src="img/icon-foodted-28-2.png" style="width: 44px; height: 44px;" alt=" "> Medium</a></li>
+								</ul>
+							</div>
+							<div class="col-6 social_foot">
+								<ul class="list-unstyled">
 									<li class="pb-2"><a class="text-white" href="https://www.youtube.com/channel/UCE8N_UJ0o_VLWqESUSb-9QA/?guided_help_flow=5" target="_blank"><img src="img/youtube.png" style="width: 44px; height: 44px;" alt=" "> Youtube</a></li>
-									 <li class="pb-2"><a class="text-white" href="https://t.me/swapbots2" target="_blank"><img src="img/icon-foodted-27-2.png" style="width: 44px; height: 44px;" alt=" "> Telegram channel</a></li>
-									<li class="pb-2"><a class="text-white" href="https://t.me/joinchat/UXhEZlGaJMuRe2BejVFcrg" target="_blank"><img src="img/icon-foodted-27-2.png" style="width: 44px; height: 44px;" alt=" "> Telegram Group</a></li>
 									<li class="pb-2"><a class="text-white" href="https://www.reddit.com/user/swapbots2" target="_blank"><img src="img/icon foodted-33.png" style="width: 44px; height: 44px;" alt=" "> Github</a></li>
+									<li class="pb-2"><a class="text-white" href="https://t.me/swapbots2" target="_blank"><img src="img/icon-foodted-27-2.png" style="width: 44px; height: 44px;" alt=" "> Telegram channel</a></li>
+									<li class="pb-2"><a class="text-white" href="https://t.me/joinchat/UXhEZlGaJMuRe2BejVFcrg" target="_blank"><img src="img/icon-foodted-27-2.png" style="width: 44px; height: 44px;" alt=" "> Telegram Group</a></li>
 							</div>
 						</div>
 						<p style="font-size: 16px; min-width: max-content; color: white;">Copyright @2020 swapbots.org</p>
