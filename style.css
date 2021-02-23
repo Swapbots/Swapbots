@@ -523,7 +523,7 @@ nav button {
 
 #popup {
     width: 555px;
-    height: 375px;
+    height: auto;
 	background-color: #eee;
     border-radius: 25px;
     -moz-border-radius: 25px;
@@ -537,13 +537,23 @@ nav button {
 	font-weight: bold;
 	
 }
+.responsive {
+	max-width: 100%;
+	height:auto;
+  }
 @media only screen and (max-device-width:480px) {
 	#popup {
-		display:none;
-
+		display:block;
+		width: 300px;
+		background-color: #eee;
+		border-radius: 25px;
+		-moz-border-radius: 25px;
+		-webkit-border-radius: 25px;
+		position: fixed;
+		top: 20%; left:20%;
 	}
 	#ac-wrapper {
-		display: none;
+		display: initial;
 		position: fixed;
 		width: 100%;
 		height: 100%;
