@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="stm/stmicons.css">
 	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <!-- Trigger/Open The Modal -->
@@ -60,15 +61,15 @@
 		<div class="bg_star">
 			<div class="container">
 				<div class="row tit_swapbots">
-					<div class="col-lg-4 col-sm-12">
-					    <div class="container" style="margin-top: 20px;">
+					<div class="col-lg-4 col-sm-12" >
+					    <div class="container" style="margin-top: 20px;" data-aos="fade-right">
 					        <img class="img-fluid" src="img/BANNER SWAPBOTS-03.png">
     						<p class="sub_tit">Swapbots is poised to become the decentralized finance (DeFi) solution for everyone, especially in swapping. Our unique technology will allow people and organizations to easily execute smart contract-based agreements at at a fraction of the cost of similar services provided by law firms and banks.</p>
 							<a href="https://github.com/SwapBots2/SWB-whitepaper/raw/main/WHITEPAPER.ver.1.pdf"><button class="btn_login">Whitepaper</button></a>
 							<a href="https://blog.swapbots.org" target="_blank"><button class="btn_swap">Blog</button></a>
 					    </div>
 					</div>
-					<div class="col-lg-4 col-sm-12">
+					<div class="col-lg-4 col-sm-12" data-aos="zoom-out-up" data-aos-duration="">
 						<center>
 							<div class="img-swap" style="padding-bottom: 10px;">
 								<img class="img-fluid" id="img_cs" src="img/SWB UPDATE-03.png" alt="">
@@ -127,7 +128,7 @@
 							
 						</center>
 					</div>
-					<div class="col-lg-4 col-sm-12">
+					<div class="col-lg-4 col-sm-12" data-aos="fade-left">
 						<center>
 							<div class="img-stake" style="padding-bottom: 10px;">
 								<img class="img-fluid" id="img_cs" src="img/SWB UPDATE-04.png" alt="">
@@ -179,25 +180,26 @@
 			</div>
 			<div class="container">
 				<center>
+					<div data-aos="fade-up">
 					<img class="img-fluid" id="img_cs" src="img/SWB UPDATE-07.png">
-				
+					</div>	
 				<div class="row">
-						<div class="col-lg-4 col-sm-12">
+						<div class="col-lg-4 col-sm-12" data-aos="zoom-in-right">
 							<a href="https://justswap.network/#/scan/detail/trx/TZ7YqQkPFoyp1dzzMHBEXKpJawQUx8S47T" target="_blank"><img class="img-fluid" id="img_cs" src="img/SWB UPDATE-08.png" alt=""></a>
 						</div>
 						<div class="col-lg-4 col-sm-12">
 							<a href="https://trade.swapbots.org/home" target="_blank"><img class="img-fluid" id="img_cs" src="img/SWB UPDATE-09.png" alt=""></a>
 						</div>
-						<div class="col-lg-4 col-sm-12">
+						<div class="col-lg-4 col-sm-12" data-aos="zoom-in-left">
 							<img class="img-fluid" id="img_cs" src="img/SWB UPDATE-10.png" alt="">
 						</div>
-						<div class="col-lg-4 col-sm-12">
+						<div class="col-lg-4 col-sm-12" data-aos="zoom-in-right">
 							<img class="img-fluid" id="img_cs" src="img/SWB UPDATE-12.png" alt="">
 						</div>
 						<div class="col-lg-4 col-sm-12">
 							<img class="img-fluid" id="img_cs" src="img/SWB UPDATE-13.png" alt="">
 						</div>
-						<div class="col-lg-4 col-sm-12">
+						<div class="col-lg-4 col-sm-12" data-aos="zoom-in-left">
 							<img class="img-fluid" id="img_cs" src="img/SWB UPDATE-14.png" alt="">
 						</div>
 				</div>
@@ -238,7 +240,6 @@
 			</div> -->
 		</div>
 	</div>
-	
 	<footer style="background-color: #1f144a; padding: 20px 0 0 0; overflow: hidden">
 	    <div class="site-footer__upper">
 			<div class="container">
@@ -302,9 +303,11 @@
 		</div>
 	</footer>
 
-
-
-
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	  </script>
+	
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
