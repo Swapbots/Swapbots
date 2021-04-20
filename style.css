@@ -550,7 +550,7 @@ nav button {
 		-moz-border-radius: 25px;
 		-webkit-border-radius: 25px;
 		position: fixed;
-		top: 20%; left:20%;
+		top: 20%; left:14%;
 	}
 	#ac-wrapper {
 		display: initial;
